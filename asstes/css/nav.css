@@ -6,6 +6,7 @@
     .nav img {
         /* margin-left: 5.37px; */
         margin-top: 23.01px;
+        border-radius: 50%;
         width: 65px;
         height: 65px;
     }
