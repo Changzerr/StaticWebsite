@@ -1,0 +1,147 @@
+.content{
+    margin: auto;
+    width: 100%;
+}
+/* ======== */
+.detail1 .left{
+    width: 35%;
+    height: 738.875244140625px;
+    float: left;
+}
+.detail1 .right{
+    width: 65%;
+    height: 738.875244140625px;
+    float: right;
+    margin: auto;
+}
+.detail1{
+    height: 738.875244140625px;
+    background-color: rgb(13, 131, 147);
+}
+
+.detail1 h1{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 200px;
+} 
+
+.detail1 p{
+    
+    color: #FFFFFF;
+    text-align: center;
+}
+.detail1 .readMore{
+    text-decoration: none;
+    display: block;
+    height: 57px;
+    width: 154px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 70px;
+    margin-left: 618px;
+}
+
+.detail1 .readMore p{
+    margin: auto;
+    height: 40px;
+    width: 104px;
+    line-height: 50px;
+    font-style: italic;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+/* ====detail2===== */
+.detail2{
+    height: 588.24px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.detail2 .left{
+    width: 40%;
+    height: 588.24px;
+    float: left;
+}
+.detail2 .right{
+    width: 60%;
+    height: 588.24px;
+    float: right;
+    margin: auto;
+}
+.detail2 p{
+    margin-left: 20px;
+}
+.detail2 h1{
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(134, 56, 0, 0.94);;
+}
+.detail2 .readMore{
+    text-decoration: none;
+    display: block;
+    height: 57px;
+    width: 154px;
+    color: #000;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 70px;
+    margin-left: 550px;
+}
+.detail2 .readMore p{
+    margin: auto;
+    height: 40px;
+    width: 104px;
+    line-height: 50px;
+    font-style: italic;
+    border-bottom: 2px solid #000;
+}
+
+/* ====detail3====== */
+.detail3{
+    height: 420px;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: rgb(13, 131, 147);    
+}
+.detail3 .left{
+    width: 50%;
+    height: 420px;
+    float: left;
+}
+.detail3 .right{
+    width: 50%;
+    height: 420px;
+    background-color: #FFFFFF;
+    float: right;
+    margin: auto;
+}
+.detail3 p{
+    text-align: center;
+}
+.detail3 h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.detail3 .readMore{
+    text-decoration: none;
+    display: block;
+    height: 57px;
+    width: 154px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 70px;
+    margin-left: 450px;
+}
+.detail3 .readMore p{
+    margin: auto;
+    height: 40px;
+    width: 104px;
+    line-height: 50px;
+    font-style: italic;
+    border-bottom: 2px solid #FFFFFF;
+}
+

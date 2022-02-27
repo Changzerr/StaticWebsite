@@ -4,10 +4,10 @@
 
 
     .nav img {
-        margin-left: 15.37px;
-        margin-top: 25.01px;
-        width: 67px;
-        height: 67px;
+        /* margin-left: 5.37px; */
+        margin-top: 23.01px;
+        width: 65px;
+        height: 65px;
     }
 
     .connection {
@@ -25,7 +25,7 @@
 
     /* All */
     .nav {
-        width: 1219.367487680106px;
+        width: 100%;
         height: 128.87452923066772px;
         margin: auto;
     }
