@@ -1,34 +1,40 @@
-.foot{
+.foot {
     width: 100%;
-    height: 280px;
+    /* height: 280px; */
     display: flex;
     flex-direction: row;
     background-color: rgb(13, 131, 147);
 }
-.aboutUs{
+
+.aboutUs {
     margin-top: 20px;
     margin-left: 30px;
     color: #FFFFFF;
     width: 702px;
 }
-.aboutUs h3{
+
+.aboutUs h3 {
     line-height: 50px;
     border-bottom: 5px solid #FFFFFF;
 }
-.aboutUs p{
+
+.aboutUs p {
     margin-top: 30px;
 }
-.navigation{
+
+.navigation {
     margin-top: 20px;
     margin-left: 50px;
     color: #FFFFFF;
     width: 402px;
 }
-.navigation h3{
+
+.navigation h3 {
     line-height: 50px;
     border-bottom: 5px solid #FFFFFF;
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     color: #FFFFFF;
     display: block;

@@ -6,12 +6,10 @@
 /* ======== */
 .detail1 .left {
     width: 35%;
-    height: 738.875244140625px;
 }
 
 .detail1 .right {
     width: 65%;
-    height: 738.875244140625px;
     margin: auto;
 }
 
@@ -19,7 +17,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 738.875244140625px;
     background-color: rgb(13, 131, 147);
 }
 
@@ -39,19 +36,19 @@
     text-decoration: none;
     display: block;
     height: 57px;
-    width: 154px;
+    width: 104;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 6px;
     margin-top: 70px;
-    margin-left: 618px;
+    margin-left: 70%;
 }
 
 .detail1 .readMore p {
     margin: auto;
     height: 40px;
-    width: 104px;
+    width: 80%;
     line-height: 50px;
     font-style: italic;
     border-bottom: 3px solid #FFFFFF;
@@ -59,7 +56,7 @@
 
 /* ====detail2===== */
 .detail2 {
-    height: 588.24px;
+    /* height: 588.24px; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -69,12 +66,12 @@
 
 .detail2 .left {
     width: 40%;
-    height: 588.24px;
+    /* height: 588.24px; */
 }
 
 .detail2 .right {
     width: 60%;
-    height: 588.24px;
+    /* height: 588.24px; */
     margin: auto;
 }
 
@@ -93,19 +90,19 @@
     text-decoration: none;
     display: block;
     height: 57px;
-    width: 154px;
+    width: 20%;
     color: #000;
     border: 2px solid #000;
     box-sizing: border-box;
     border-radius: 6px;
     margin-top: 70px;
-    margin-left: 550px;
+    margin-left: 70%;
 }
 
 .detail2 .readMore p {
     margin: auto;
     height: 40px;
-    width: 104px;
+    width: 80%;
     line-height: 50px;
     font-style: italic;
     border-bottom: 3px solid #000;
@@ -113,7 +110,7 @@
 
 /* ====detail3====== */
 .detail3 {
-    height: 421px;
+    /* height: 421px; */
     width: 100%;
     color: #FFFFFF;
     display: flex;
@@ -124,12 +121,12 @@
 
 .detail3 .left {
     width: 60%;
-    height: 421px;
+    /* height: 421px; */
 }
 
 .detail3 .right {
     width: 40%;
-    height: 421px;
+    /* height: 421px; */
     background-color: #FFFFFF;
     margin: auto;
 }
@@ -147,19 +144,19 @@
     text-decoration: none;
     display: block;
     height: 57px;
-    width: 154px;
+    width: 20%;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 6px;
     margin-top: 70px;
-    margin-left: 550px;
+    margin-left: 70%;
 }
 
 .detail3 .readMore p {
     margin: auto;
     height: 40px;
-    width: 104px;
+    width: 80%;
     line-height: 50px;
     font-style: italic;
     border-bottom: 3px solid #FFFFFF;
