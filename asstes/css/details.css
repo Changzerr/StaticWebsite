@@ -50,8 +50,6 @@
 
 /* ====detail2===== */
 .detail2 {
-    /* height: 588.24px; */
-    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -191,7 +189,7 @@
     /* 老的 Firefox */
 }
 
-@media (min-width: 800px) {
+@media (min-width: 992px) {
     .detail1 .readMore {
 
         margin: 5% 68%;
