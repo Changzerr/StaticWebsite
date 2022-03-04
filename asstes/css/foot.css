@@ -7,8 +7,8 @@
 }
 
 .aboutUs {
-    margin-top: 20px;
-    margin-left: 30px;
+    /* margin-top: 20px;
+    margin-left: 30px; */
     color: #FFFFFF;
     width: 802px;
 }
@@ -23,9 +23,8 @@
 }
 
 .navigation {
-    margin-top: 20px;
     margin-left: 50px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     color: #FFFFFF;
     width: 452px;
 }

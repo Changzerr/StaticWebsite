@@ -12,7 +12,6 @@
   <link type="text/css" rel="styleSheet" href="./asstes/css/foot.css" />
   <link type="text/css" rel="styleSheet" href="./asstes/css/details.css" />
   <link type="text/css" rel="styleSheet" href="./asstes/css/carousel.css" />
-  <script type="text/javascript" src="./asstes/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -209,48 +208,57 @@
         </div>
 
         <div class="col-sm-9">
-          <div class="row">
-            <div>
-              <div class="announcementTil separated active">
-                <div>通知公告</div>
-              </div>
-              <div class="announcementTil">
-                <div>投资者关系</div>
-              </div>
-            </div>
-            <!-- 通知公告 -->
-            <div class="content activeCon row">
-              <div class="col-sm-6 mm">
+          <div class="row" id="boxa">
+            <div class="box" id="box">
+              <div class="hd">
                 <div>
-                  <h5>● Medical Micro-biologist</h5>
-                  <h5>● Microbiology Quality Control Scientist</h5>
-                  <h5>● Cytologist</h5>
+                  <span class="current announcementTil separated ">通知公告</span>
+                </div>
+                <div>
+                  <span class="announcementTil ">投资者关系</span>
                 </div>
               </div>
-              <div class="col-sm-6 mm" style="display: flex;
-              align-items: center;">
-                <img src="./asstes/img/Investorrelations.png" width="100%">
-              </div>
-            </div>
-            <!-- 投资者关系 -->
-            <div class="content row">
-              <div class="col-6 col-sm-6">
-                <div>
-                  <h5>● Medical Micro-biologist</h5>
-                  <h5>● Microbiology Quality Control Scientist</h5>
-                  <h5>● Cytologist</h5>
-                </div>
-              </div>
-              <div class="col-6 col-sm-6" style="display: flex;
-              align-items: center;">
-                <img src="./asstes/img/Investorrelations.png" width="100%">
+              <div class="bd">
+                <ul>
+                  <li class="content current">
+                    <div class="mm">
+                      <div>
+                        <h5>● Medical Micro-biologist</h5>
+                        <h5>● Microbiology Quality Control Scientist</h5>
+                        <h5>● Cytologist</h5>
+                      </div>
+                    </div>
+                    <div class="mm" style="display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;">
+                      <img src="./asstes/img/Investorrelations.png" width="100%">
+                    </div>
+                  </li>
+                  <li class="content row">
+                    <div class="mm">
+                      <div>
+                        <h5>● Medical Micro-biologist</h5>
+                        <h5>● Microbiology Quality Control Scientist</h5>
+
+                      </div>
+                    </div>
+                    <div class="mm" style="display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;">
+                      <img src="./asstes/img/Investorrelations.png" width="100%">
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="foot">
+
+
+
+    <div class="foot container-fluid">
       <div class="aboutUs">
         <h3>关于我们</h3>
         <p>中海油田服务股份有限公司（中海油服,
@@ -260,9 +268,9 @@
           业务分为四大类：物探勘察服务、钻井服务、油田技术服务及船舶服务。
           COSL于2002年11月20日公开发行H股，并在香港联合交易所主板上市，股票编号：2883。
         </p>
-        <p class="d-none d-lg-block">Copyright 2015 All Right Reserverd 中海油田服务股份有限公司 版权所有 津ICP备17008252号</p>
+        <p class="d-none d-sm-block">Copyright 2015 All Right Reserverd 中海油田服务股份有限公司 版权所有 津ICP备17008252号</p>
       </div>
-      <div class="navigation">
+      <div class="navigation d-none d-lg-block">
         <h3>快速导航</h3>
         <a href="#"> > 公司简介</a>
         <a href="#"> > 企业理念</a>
@@ -271,7 +279,11 @@
         <a href="#"> > 加入我们</a>
       </div>
     </div>
-  </div>
+
+
+    <script type="text/javascript" src="./asstes/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./asstes/js/tabScript.js"></script>
+
 </body>
 
 <style>
@@ -283,45 +295,6 @@
   .body {
     margin: 0 auto;
     width: 100vw;
-  }
-
-  .announcementTil {
-    margin: 3% auto;
-    font-size: larger;
-    height: 50px;
-    line-height: 45px;
-    font-weight: 700;
-    display: inline-block;
-    width: 49%;
-    /* background-color: antiquewhite; */
-  }
-
-  .announcementTil div {
-    margin: 0 auto;
-    width: 100px;
-  }
-
-  .active div {
-    text-align: center;
-    border-bottom: 5px solid #863800;
-  }
-
-  .separated {
-    border-right: 5px solid #C4C4C4;
-  }
-
-  .content {
-    display: none;
-  }
-
-  .activeCon {
-    display: flex;
-  }
-
-  @media (min-width: 800px) {
-    /* .content div {
-      width: 48%;
-    } */
   }
 </style>
 
